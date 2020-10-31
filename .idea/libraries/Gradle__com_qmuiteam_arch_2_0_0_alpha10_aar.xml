@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.qmuiteam:arch:2.0.0-alpha10@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/55614cae6fd28f945633e948b2a8473e/jetified-arch-2.0.0-alpha10/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/55614cae6fd28f945633e948b2a8473e/jetified-arch-2.0.0-alpha10/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/55614cae6fd28f945633e948b2a8473e/jetified-arch-2.0.0-alpha10/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.qmuiteam/arch/2.0.0-alpha10/f96809ad4ccf40e4abe4e67bad9bb256f808d918/arch-2.0.0-alpha10-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.qmuiteam/arch/2.0.0-alpha10/362e55193303fae4fc268f6524aa4111e21bf940/arch-2.0.0-alpha10-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

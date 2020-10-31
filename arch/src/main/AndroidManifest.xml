@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wl.pluto.arch">
+
+    <application>
+
+        <activity android:name="workstation.base.GroupActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:theme="@style/BaseAppTheme"
+            android:windowSoftInputMode="stateHidden|adjustPan"/>
+    </application>
+
+</manifest>

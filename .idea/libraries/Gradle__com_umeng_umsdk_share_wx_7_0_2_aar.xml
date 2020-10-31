@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.umeng.umsdk:share-wx:7.0.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/892470522703c922e49d8d6ef280d84c/jetified-share-wx-7.0.2/jars/libs/wechat-sdk-android-without-mta-5.4.3.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/892470522703c922e49d8d6ef280d84c/jetified-share-wx-7.0.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/892470522703c922e49d8d6ef280d84c/jetified-share-wx-7.0.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/892470522703c922e49d8d6ef280d84c/jetified-share-wx-7.0.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.umeng.umsdk/share-wx/7.0.2/c7ed38d5a1907f885a7847b9b6f337ee3c71309b/share-wx-7.0.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.umeng.umsdk/share-wx/7.0.2/c7ed38d5a1907f885a7847b9b6f337ee3c71309b/share-wx-7.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

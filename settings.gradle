@@ -1,0 +1,19 @@
+include ':module_main'
+include ':app'
+
+include ':module_login'
+include ':qmui'
+
+
+///
+include ':arch'
+include ':common'
+
+include ':lib_utils'
+include ':lib_component'
+include ':webview'
+
+include ':network'
+include ':ImageLoader'
+
+rootProject.name = "HM"

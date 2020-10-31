@@ -1,0 +1,11 @@
+apply from: "../lib_build.gradle"
+
+
+dependencies {
+
+    api project(':arch')
+    implementation "androidx.cardview:cardview:1.0.0"
+
+    implementation "androidx.room:room-ktx:2.2.5"
+    //kapt deps.room.compiler
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/ic_dialog_common_bg"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="@dimen/dp_220"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:maxLines="3"
+            android:minLines="3"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_sure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_8"
+            android:layout_gravity="center_horizontal"
+            android:background="@mipmap/ic_dialog_sure_bg"
+            android:gravity="center"
+            android:text="去续课"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,7 @@
+apply from: "../lib_build.gradle"
+dependencies {
+    implementation "androidx.appcompat:appcompat:1.2.0"
+    api project(':network')
+    api 'com.kingja.loadsir:loadsir:1.3.8'
+
+}

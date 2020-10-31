@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.alibaba:arouter-api:1.5.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/07b417c51b36c870bafeca941aeee475/jetified-arouter-api-1.5.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ea314d50ad912003d605c8fe049dfcae/jetified-arouter-api-1.5.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ea314d50ad912003d605c8fe049dfcae/jetified-arouter-api-1.5.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ea314d50ad912003d605c8fe049dfcae/jetified-arouter-api-1.5.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/arouter-api/1.5.0/2046d63ad0f9e74c9648146bb4437a7ef1853209/arouter-api-1.5.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

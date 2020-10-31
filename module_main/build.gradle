@@ -1,0 +1,122 @@
+import com.hi.dhl.plugin.*
+if (isBuildModule.toBoolean()) {
+    //作为独立App应用运行
+    apply plugin: 'com.android.application'
+} else {
+    //作为组件运行
+    apply plugin: 'com.android.library'
+}
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'com.jakewharton.butterknife'
+apply from: "../module_build.gradle"
+
+android {
+    defaultConfig {
+        //如果是独立模块，则使用当前组件的包名
+        if (isBuildModule.toBoolean()) {
+            applicationId "com.pluto.module_main"
+        }
+
+        minSdkVersion rootProject.ext.android["minSdkVersion"]
+        targetSdkVersion rootProject.ext.android["targetSdkVersion"]
+        versionCode rootProject.ext.android["versionCode"]
+        versionName rootProject.ext.android["versionName"]
+
+        ndk {
+            abiFilters "armeabi-v7a"
+            // 还可以添加 'armeabi', "armeabi-v7a", 'arm64-v8a'
+        }
+
+        kapt {
+            arguments {
+                arg("AROUTER_MODULE_NAME", project.getName())
+            }
+        }
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+            if (isBuildModule.toBoolean()) {
+                //独立运行
+                manifest.srcFile 'src/main/alone/AndroidManifest.xml'
+            } else {
+                //合并到宿主
+                manifest.srcFile 'src/main/AndroidManifest.xml'
+                resources {
+                    //正式版本时，排除debug文件夹下所有调试文件
+                    exclude 'src/debug/*'
+                }
+            }
+        }
+    }
+
+    dexOptions {
+        preDexLibraries = false
+        javaMaxHeapSize "4g"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+}
+
+dependencies {
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+
+    implementation Kt.stdlibJdk8
+    implementation AndroidX.coreKtx
+    implementation Fragment.runtimeKtx
+    implementation Anko.common
+
+    api project(':common')
+
+
+
+    api 'com.r0adkll:slidableactivity:2.0.5'
+
+    api 'com.jakewharton:butterknife:10.2.3'
+    kapt 'com.jakewharton:butterknife-compiler:10.2.3'
+
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.2'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+
+
+
+    implementation 'me.relex:photodraweeview:1.1.3'
+    implementation 'com.youth.banner:banner:2.0.12'
+
+
+    implementation 'com.github.zcweng:switch-button:0.0.3@aar'
+
+    implementation "androidx.lifecycle:lifecycle-extensions:2.2.0"
+
+    implementation 'com.wanjian:cockroach:0.0.5'
+
+    implementation 'com.google.android:flexbox:2.0.1'
+
+    implementation 'com.jaeger.statusbarutil:library:1.4.0'
+
+    implementation 'com.github.iwgang:countdownview:2.1.6'
+
+    api 'com.github.zhaolewei:ZlwAudioRecorder:v1.07'
+
+    implementation 'com.king.zxing:zxing-lite:1.1.9-androidx'
+
+    implementation 'com.oushangfeng:PinnedSectionItemDecoration:1.3.2-androidx'
+
+
+    //annotationProcessor 'com.alibaba:arouter-compiler:1.2.2'
+    kapt 'com.alibaba:arouter-compiler:1.2.2'
+}

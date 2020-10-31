@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.wl.pluto.component">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/utils_ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <activity android:name="com.wl.pluto.component.main.ui.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <activity android:name=".dialog.ActivityDialog" />
+        <activity android:name=".popup.ActivityPopupView" />
+        <activity android:name=".loading.ActivityLoading" />
+        <activity android:name=".loading.ActivityLoadingDetail" />
+        <activity android:name=".qrcode.activity.ActivityCodeTool" />
+        <activity android:name=".qrcode.activity.ActivityScanerCode" />
+        <activity android:name=".photo.ActivityRxPhoto" />
+    </application>
+
+</manifest>

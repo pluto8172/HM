@@ -1,0 +1,17 @@
+apply from: "../lib_build.gradle"
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+
+
+
+dependencies {
+    api "androidx.appcompat:appcompat:1.2.0"
+    api "androidx.annotation:annotation:1.1.0"
+    api "com.google.android.material:material:1.2.1"
+    api "androidx.constraintlayout:constraintlayout:2.0.2"
+    //lintChecks project(':lintrule')
+
+    api 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+    compileOnly "org.jetbrains.kotlin:kotlin-stdlib:1.4.0"
+}

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/shape_rectangle_white_10dp"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/ic_verify_code_top">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="40dp"
+                android:text="验证码"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:paddingStart="12dp"
+            android:text="如验证码看不清，请您点击刷新" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="12dp">
+
+
+            <EditText
+                android:id="@+id/et_code"
+                android:layout_width="160dp"
+                android:layout_height="42dp"
+                android:background="@drawable/shape_edit_bg"
+                android:gravity="left|center_vertical"
+                android:hint="请输入图形验证码"
+                android:inputType="text"
+                android:maxLength="6"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:textColor="@color/text_title"
+                android:textColorHint="@color/text_hint"
+                android:textCursorDrawable="@mipmap/bg_cursor"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/iv_code_image"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:scaleType="fitXY" />
+
+        </LinearLayout>
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:paddingBottom="16dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_cancel"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_white_button_bg"
+                android:gravity="center"
+                android:text="取消"
+                android:textColor="@color/text_gray"
+                android:textSize="17sp" />
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_ensure"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_blue_button_bg"
+                android:gravity="center"
+                android:text="确定"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

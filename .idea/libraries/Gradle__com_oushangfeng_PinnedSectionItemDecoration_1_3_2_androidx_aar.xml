@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.oushangfeng:PinnedSectionItemDecoration:1.3.2-androidx@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/19363abaa5587e6b8d7f38697dfc6ec0/jetified-PinnedSectionItemDecoration-1.3.2-androidx/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/19363abaa5587e6b8d7f38697dfc6ec0/jetified-PinnedSectionItemDecoration-1.3.2-androidx/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/19363abaa5587e6b8d7f38697dfc6ec0/jetified-PinnedSectionItemDecoration-1.3.2-androidx/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.oushangfeng/PinnedSectionItemDecoration/1.3.2-androidx/a043e8f71fb656e35ec5f245abeb36f4dcaaac7b/PinnedSectionItemDecoration-1.3.2-androidx-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.oushangfeng/PinnedSectionItemDecoration/1.3.2-androidx/2b1cac68e3296c4b3bc037237a599b0bf603eb32/PinnedSectionItemDecoration-1.3.2-androidx-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

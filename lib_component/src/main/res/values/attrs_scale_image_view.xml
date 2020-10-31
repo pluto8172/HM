@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RxScaleImageViewStyle">
+        <attr name="riv_src" format="reference" />
+        <attr name="riv_assetName" format="string" />
+        <attr name="riv_panEnabled" format="boolean" />
+        <attr name="riv_zoomEnabled" format="boolean" />
+        <attr name="riv_quickScaleEnabled" format="boolean" />
+        <attr name="riv_tileBackgroundColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="RxSeekBar">
+        <attr name="maxProgress" format="float" />
+        <attr name="minProgress" format="float" />
+        <attr name="reserve" format="float" />
+        <attr name="cells" format="integer" />
+        <attr name="hideProgressHint" format="boolean" />
+        <attr name="isHintHolder" format="boolean" />
+        <attr name="lineColorSelected" format="color" />
+        <attr name="lineColorEdge" format="color" />
+        <attr name="thumbPrimaryColor" format="color" />
+        <attr name="thumbSecondaryColor" format="color" />
+        <attr name="markTextArray" format="reference" />
+        <attr name="seekBarResId" format="reference" />
+        <!-- must use 9 path ！！！-->
+        <attr name="progressHintResId" format="reference" />
+        <attr name="textPadding" format="dimension" />
+        <attr name="textSize2" format="dimension" />
+        <attr name="hintBGHeight" format="dimension" />
+        <attr name="hintBGWith" format="dimension" />
+        <attr name="hintBGPadding" format="dimension" />
+        <attr name="seekBarHeight" format="dimension" />
+        <attr name="thumbSize" format="dimension" />
+        <attr name="cellMode" format="enum">
+            <enum name="number" value="0" />
+            <enum name="other" value="1" />
+        </attr>
+        <attr name="seekBarMode" format="enum">
+            <enum name="single" value="1" />
+            <enum name="range" value="2" />
+        </attr>
+
+    </declare-styleable>
+
+    <declare-styleable name="RxShapeLoadingView">
+        <attr format="string" name="loadingText" />
+        <attr format="reference" name="loadingTextAppearance" />
+    </declare-styleable>
+
+    <declare-styleable name="RxShineButton">
+        <attr name="btn_color" format="color" />
+        <attr name="btn_fill_color" format="color" />
+        <attr name="shine_count" format="integer" />
+        <attr name="shine_turn_angle" format="float" />
+        <attr name="small_shine_offset_angle" format="float" />
+        <attr name="enable_flashing" format="boolean" />
+        <attr name="allow_random_color" format="boolean" />
+        <attr name="small_shine_color" format="color" />
+        <attr name="big_shine_color" format="color" />
+        <attr name="shine_animation_duration" format="integer" />
+        <attr name="click_animation_duration" format="integer" />
+        <attr name="shine_distance_multiple" format="float" />
+        <attr name="shine_size" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="RxSwipeCaptcha">
+        <attr name="captchaWidth" format="dimension" />
+        <attr name="captchaHeight" format="dimension" />
+        <attr name="matchDeviation" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="RxTitle">
+        <attr name="title" format="string" />
+        <attr name="titleColor" format="color" />
+        <attr name="titleSize" format="dimension" />
+        <attr name="titleVisibility" format="boolean" />
+
+        <attr name="leftText" format="string" />
+        <attr name="leftTextColor" format="color" />
+        <attr name="leftTextSize" format="dimension" />
+        <attr name="leftTextVisibility" format="boolean" />
+
+        <attr name="rightText" format="string" />
+        <attr name="rightTextColor" format="color" />
+        <attr name="rightTextSize" format="dimension" />
+        <attr name="rightTextVisibility" format="boolean" />
+
+        <attr name="leftIcon" format="reference" />
+        <attr name="leftIconVisibility" format="boolean" />
+
+        <attr name="rightIcon" format="reference" />
+        <attr name="rightIconVisibility" format="boolean" />
+    </declare-styleable>
+
+    <!--  <declare-styleable name="RxRoundProgress">
+          <attr name="roundColor" format="color" />
+          <attr name="roundProgressColor" format="color" />
+          <attr name="roundWidth" format="dimension" />
+          <attr name="textColor" format="color" />
+          <attr name="textSize1" format="dimension" />
+          <attr name="max" format="integer" />
+          <attr name="textIsDisplayable" format="boolean" />
+          <attr name="style">
+              <enum name="STROKE" value="0" />
+              <enum name="FILL" value="1" />
+          </attr>
+      </declare-styleable>-->
+
+
+    <attr name="abstractWheelViewStyle" format="reference" />
+
+    <attr name="SpinKitViewStyle" format="reference" />
+
+</resources>

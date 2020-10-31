@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clipToPadding="true"
+    >
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:src="@mipmap/ic_login_back" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="@dimen/dp_40"
+        android:src="@mipmap/ic_pwd_logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:padding="36dp">
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_title"
+            style="@style/text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="@dimen/content_small"
+            android:text="输入验证码"
+            android:textColor="@color/text_title"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_xx"
+            style="@style/text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/text_desc" />
+
+        <LinearLayout
+            android:id="@+id/rl_middle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.arch.demo.common.widgets.ClearEditText
+                    android:id="@+id/et_code"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:layout_marginRight="@dimen/content_horizontal_margin"
+                    android:layout_toLeftOf="@+id/tv_code"
+                    android:background="@null"
+                    android:gravity="left|center_vertical"
+                    android:hint="验证码"
+                    android:inputType="phone"
+                    android:maxLength="6"
+                    android:textColor="@color/text_title"
+                    android:textColorHint="@color/text_hint"
+                    android:textCursorDrawable="@mipmap/bg_cursor"
+                    android:textSize="@dimen/text_subhead" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/bg_round_circle_gray_2dp"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/content_horizontal_margin"
+                    android:paddingRight="@dimen/content_horizontal_margin"
+                    android:textColor="@color/text_gray"
+                    android:textSize="@dimen/text_desc" />
+
+                <View
+                    style="@style/comm_line_horizontal"
+                    android:layout_below="@+id/et_code"
+                    android:background="@color/colorAccent" />
+            </RelativeLayout>
+
+
+            <com.arch.demo.common.widgets.StateButton
+                android:id="@+id/sb_login"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                android:padding="0dp"
+                android:text="验证并登录"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_button"
+                app:normalBackgroundColor="@color/bg_button_normal"
+                app:pressedBackgroundColor="@color/bg_button_press"
+                 app:sb_radius="20dp"
+                app:unableBackgroundColor="@color/gray" />
+
+            <!-- <LinearLayout
+                 android:id="@+id/ll_policy_layout"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="16dp"
+                 android:orientation="vertical"
+                 android:visibility="gone">
+
+                 <androidx.appcompat.widget.AppCompatTextView
+                     android:id="@+id/tv_xxx"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center_horizontal"
+
+                     android:text="注册/登录表示你同意且已阅读并了解"
+                     android:textColor="@color/text_hint"
+                     android:textSize="@dimen/text_desc" />
+
+                 <androidx.appcompat.widget.LinearLayoutCompat
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center_horizontal"
+                     android:layout_marginTop="@dimen/content_small"
+                     android:orientation="horizontal">
+
+
+                     <androidx.appcompat.widget.AppCompatTextView
+                         android:id="@+id/tv_policy"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="《专业用户合作协议》"
+                         android:textColor="@color/text_time_blue"
+                         android:textSize="12sp" />
+
+                     <androidx.appcompat.widget.AppCompatTextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_centerHorizontal="true"
+                         android:text="与"
+                         android:textColor="@color/text_hint"
+                         android:textSize="@dimen/text_desc" />
+
+                     <androidx.appcompat.widget.AppCompatTextView
+                         android:id="@+id/tv_protect"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="《隐私协议》"
+                         android:textColor="@color/text_time_blue"
+                         android:textSize="12sp" />
+                 </androidx.appcompat.widget.LinearLayoutCompat>
+
+             </LinearLayout>-->
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="@string/text_company_copyright"
+        android:textColor="@color/text_hint"
+        android:textSize="@dimen/text_desc" />
+
+</RelativeLayout>

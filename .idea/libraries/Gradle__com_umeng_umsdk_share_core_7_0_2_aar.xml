@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.umeng.umsdk:share-core:7.0.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b0bcab9fb61c16d081379e41be3642c2/jetified-share-core-7.0.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b0bcab9fb61c16d081379e41be3642c2/jetified-share-core-7.0.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b0bcab9fb61c16d081379e41be3642c2/jetified-share-core-7.0.2/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.umeng.umsdk/share-core/7.0.2/a4ea2d943014a660dd356b943da6fb5033426411/share-core-7.0.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.umeng.umsdk/share-core/7.0.2/a4ea2d943014a660dd356b943da6fb5033426411/share-core-7.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

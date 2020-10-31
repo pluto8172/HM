@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FEDE3E</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="grayf5">#f5f5f5</color>
+    <color name="black3">#333333</color>
+
+    <!--<color name="blue00">#0080FF</color>-->
+    <color name="blue03">#0091ff</color>
+
+
+    <!--首页底部导航栏颜色-->
+
+    <color name="colorPrimaryLight">#F8F8F8</color>
+    <color name="color_f8">#F8F8F8</color>
+
+
+    <!-- 0496F8-->
+    <color name="colorAccentLight">#008AFC</color>
+    <color name="colorAccentAlpha">#29B2EF</color>
+    <color name="colorAccentDark">#039BFF</color>
+
+    <!-- 字体色 -->
+    <color name="text_title">#222222</color>
+    <color name="text_green">#00B87A</color>
+    <color name="text_body">#3C3C3C</color>
+    <color name="text_gray">#8B8B8B</color>
+    <color name="text_hint">#BABABA</color>
+    <color name="tag_gray_bg">#e0e0e0</color>
+    <color name="text_time_blue">#0496F8</color>
+    <color name="text_black">#222222</color>
+    <color name="text_orange">#FF5E00</color>
+    <color name="text_button_cancel">#222222</color>
+    <color name="text_button_ensure">#0496F8</color>
+
+    <!-- 其它背景色或分割线相关 -->
+    <color name="bg_orange">#FFB138</color>
+    <color name="bg_gray">#E0E0E0</color>
+    <color name="red">#ED0000</color>
+    <color name="bg_content">#d8d8d8</color>
+    <color name="bg_button_normal">#0496F8</color>
+    <color name="bg_button_press">#008AFC</color>
+    <color name="bg_search">#E0E0E0</color>
+    <color name="common_popup_bg">#3c3c3c</color>
+
+
+    <color name="gray">#999999</color>
+    <color name="green">#00B87A</color>
+    <color name="light_gray">#f1f1f2</color>
+    <color name="tab_normal">#949391</color>
+    <color name="tab_hint">#cdcdcd</color>
+    <color name="bg_search_button_bound">#D8D8D8</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="light_red">#F64141</color>
+    <color name="transparent">#00000000</color>
+
+</resources>

@@ -1,0 +1,17 @@
+apply from: "../lib_build.gradle"
+
+dependencies {
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    api 'androidx.appcompat:appcompat:1.2.0'
+
+    //汉字转拼音
+    api 'com.belerweb:pinyin4j:2.5.0'
+
+    //压缩包
+    api 'net.lingala.zip4j:zip4j:2.1.4'
+
+    //Log日志格式美化包
+    compileOnly 'com.orhanobut:logger:2.2.0'
+
+}

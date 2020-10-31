@@ -1,0 +1,1 @@
+package com.plout.module_login.login.bean;public class LoginExt {    public boolean isFirstLogin;    public String userId;}

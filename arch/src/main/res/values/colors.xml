@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="main_theme_color">#0195ff</color>
+    <color name="white_font">#ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="white_bg">#ffffff</color>
+
+    <dimen name="common_top_bar_height">48dp</dimen>
+
+
+    <color name="black3">#333333</color>
+
+    <color name="blue03">#0080FF</color>
+    <color name="green">#61c15b</color>
+    <color name="tab_un_selected_color">#f5f5f5</color>
+
+    <color name="grayf5">#f5f5f5</color>
+    <color name="color_f2">#f2f2f2</color>
+
+    <!--标题栏颜色-->
+    <color name="defaultColorPrimary">#fff</color>
+    <!-- 状态栏颜色-->
+    <!--其他颜色 checkbox 光标等-->
+    <!--标题栏字体颜色-->
+
+    <color name="bg_button_normal">#0075C2</color>
+    <color name="bg_button_press">#0298F3</color>
+
+    <color name="app_color_blue">#7D7DFF</color>
+
+</resources>

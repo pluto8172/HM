@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_contacts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/tv_group_dialog"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/white_font"
+        android:textSize="30.0dip"
+        android:visibility="gone" />
+
+    <com.wl.pluto.component.view.sidebar.SideBar
+        android:id="@+id/sv_sidebar"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right|center" />
+</FrameLayout>

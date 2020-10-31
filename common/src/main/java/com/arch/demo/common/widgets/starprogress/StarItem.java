@@ -1,0 +1,1 @@
+package com.arch.demo.common.widgets.starprogress;public class StarItem {    public StarItem(boolean isSelect) {        this.isSelect = isSelect;    }    public boolean isSelect;}

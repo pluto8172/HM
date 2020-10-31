@@ -1,0 +1,1 @@
+package com.wl.pluto.arch.constant;public class AppConstant {    public static String APP_USER_ID;}

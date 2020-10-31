@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HM.iml" filepath="$PROJECT_DIR$/.idea/modules/HM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ImageLoader/HM.ImageLoader.iml" filepath="$PROJECT_DIR$/.idea/modules/ImageLoader/HM.ImageLoader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/HM.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/HM.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/arch/HM.arch.iml" filepath="$PROJECT_DIR$/.idea/modules/arch/HM.arch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HM.buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/HM.buildSrc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/HM.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/HM.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib_component/HM.lib_component.iml" filepath="$PROJECT_DIR$/.idea/modules/lib_component/HM.lib_component.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib_utils/HM.lib_utils.iml" filepath="$PROJECT_DIR$/.idea/modules/lib_utils/HM.lib_utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/module_login/HM.module_login.iml" filepath="$PROJECT_DIR$/.idea/modules/module_login/HM.module_login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/module_main/HM.module_main.iml" filepath="$PROJECT_DIR$/.idea/modules/module_main/HM.module_main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/network/HM.network.iml" filepath="$PROJECT_DIR$/.idea/modules/network/HM.network.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/qmui/HM.qmui.iml" filepath="$PROJECT_DIR$/.idea/modules/qmui/HM.qmui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/webview/HM.webview.iml" filepath="$PROJECT_DIR$/.idea/modules/webview/HM.webview.iml" />
+    </modules>
+  </component>
+</project>

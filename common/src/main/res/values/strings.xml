@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">common</string>
+    <string name="share">Share</string>
+
+    <string name="text_app_company_name">重庆中肾网络科技提供技术支持</string>
+    <string name="text_company_copyright">重庆中肾网络科技提供技术支持\n© 2020 ZHONGSHEN</string>
+</resources>

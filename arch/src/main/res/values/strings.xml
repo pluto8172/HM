@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">arch</string>
+
+    <string name="no_more_data">没有更多了</string>
+    <string name="fine_no_data">暂无数据</string>
+    <string name="click_me_to_retry">点击重试</string>
+
+</resources>

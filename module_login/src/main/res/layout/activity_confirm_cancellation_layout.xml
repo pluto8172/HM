@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:clipToPadding="true"
+
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:src="@mipmap/icon_back_black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="18sp"
+            android:textColor="@color/text_black"
+            android:text="注销账户"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:drawableTop="@mipmap/ic_cancellation_flag"
+        android:drawablePadding="8dp"
+        android:layout_gravity="center"
+        android:maxWidth="300dp"
+        android:gravity="center"
+        android:text="为避免他人恶意注销您的账户，需要验证您的身份， 短信验证码已发送至您的注册手机。"
+        android:textColor="@color/text_gray"
+        android:textSize="14sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorPrimaryLight"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_title"
+            style="@style/text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="33dp"
+            android:lineSpacingExtra="@dimen/content_small"
+            android:text="短信验证码"
+            android:textColor="@color/text_gray"
+            android:textSize="14sp" />
+
+
+        <RelativeLayout
+            android:id="@+id/rl_middle"
+            android:layout_width="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_height="200dp"
+            android:layout_centerVertical="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="36dp"
+                android:paddingEnd="36dp"
+                android:background="@color/white">
+
+                <com.arch.demo.common.widgets.ClearEditText
+                    android:id="@+id/et_code"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginRight="@dimen/content_horizontal_margin"
+                    android:layout_toLeftOf="@+id/tv_code"
+                    android:background="@null"
+                    android:gravity="left|center_vertical"
+                    android:hint="请输入短信验证码"
+                    android:inputType="phone"
+                    android:maxLines="1"
+                    android:textColor="@color/text_title"
+                    android:textColorHint="@color/text_hint"
+                    android:textCursorDrawable="@mipmap/bg_cursor"
+                    android:textSize="16sp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:drawablePadding="8dp"
+                    android:drawableStart="@drawable/shape_vertial_line"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/content_horizontal_margin"
+                    android:paddingRight="@dimen/content_horizontal_margin"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="16sp"
+                    tool:text="52S"/>
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/tv_confirm_cancellation"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="36dp"
+                android:layout_marginRight="36dp"
+                android:background="@mipmap/ic_common_button_bg"
+                android:padding="0dp"
+                android:gravity="center"
+                android:text="确认注销"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_button" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+    <item
+        android:drawable="@mipmap/excellent_03"
+        android:duration="200" />
+
+    <item
+        android:drawable="@mipmap/excellent_06"
+        android:duration="200" />
+
+    <item
+        android:drawable="@mipmap/excellent_09"
+        android:duration="200" />
+
+    <item
+        android:drawable="@mipmap/excellent_12"
+        android:duration="200" />
+
+    <item
+        android:drawable="@mipmap/excellent_15"
+        android:duration="200" />
+
+    <item
+        android:drawable="@mipmap/excellent_18"
+        android:duration="200" />
+
+
+    <item
+        android:drawable="@mipmap/excellent_21"
+        android:duration="200" />
+
+</animation-list>

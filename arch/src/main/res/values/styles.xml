@@ -1,0 +1,68 @@
+<resources>
+
+
+    <!--仿微信样式，注意每一项都不能少-->
+
+    <style name="BaseAppTheme" parent="QMUI.Compat.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/black</item>
+    </style>
+
+    <!--  自定义对话框的样式-->
+    <style name="custom_dialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="TabLayoutStyleLarge">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white_font</item>
+    </style>
+
+    <style name="TabLayoutStyleNormal">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/tab_un_selected_color</item>
+    </style>
+
+
+    <!--Activity入场与退出动画-->
+    <style name="Theme.AppCompat.Slider" parent="@style/BaseAppTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+
+
+    <style name="comm_line_horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">#d8d8d8</item>
+    </style>
+
+    <style name="comm_line_vertical">
+        <item name="android:layout_width">0.5dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#d8d8d8</item>
+    </style>
+
+
+
+    <style name="showRewardDialogAnimation" parent="android:Animation">
+        <item name="android:windowExitAnimation">@anim/reward_scale_exit</item>
+        <item name="android:windowEnterAnimation">@anim/reward_scale_in</item>
+    </style>
+
+
+
+
+</resources>

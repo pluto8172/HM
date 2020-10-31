@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PasswordEditText">
+        <attr name="pet_iconShow" format="integer" />
+        <attr name="pet_iconHide" format="integer" />
+        <attr name="pet_hoverShowsPw" format="boolean" />
+        <attr name="pet_nonMonospaceFont" format="boolean" />
+        <attr name="pet_disableIconAlpha" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="PasswordView">
+        <attr name="pwd_iconShow" format="integer" />
+        <attr name="pwd_iconHide" format="integer" />
+        <attr name="pwd_showLine" format="boolean" />
+        <attr name="pwd_showImage" format="boolean" />
+    </declare-styleable>
+</resources>
