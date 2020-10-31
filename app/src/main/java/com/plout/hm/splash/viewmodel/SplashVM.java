@@ -7,8 +7,8 @@ import androidx.lifecycle.AndroidViewModel;
 
 
 import com.plout.hm.splash.repository.SplashRepository;
-import com.xiangxue.network.common.Resource;
-import com.xiangxue.network.common.SingleSourceLiveData;
+import com.pluto.network.common.Resource;
+import com.pluto.network.common.SingleSourceLiveData;
 
 
 import java.util.List;

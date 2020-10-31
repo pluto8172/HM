@@ -3,7 +3,7 @@ package com.plout.hm.splash.repository;
 import androidx.lifecycle.LiveData;
 
 
-import com.xiangxue.network.beans.BaseResponse;
+import com.pluto.network.beans.BaseResponse;
 
 import java.util.List;
 

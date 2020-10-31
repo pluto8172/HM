@@ -5,7 +5,7 @@ import com.plout.module_login.login.bean.ImageCodeReq;
 import com.plout.module_login.login.bean.RegisterReq;
 import com.plout.module_login.login.bean.UpdatePasswordReq;
 import com.plout.module_login.login.bean.VerifyPhoneReq;
-import com.xiangxue.network.listener.OnResultDataListener;
+import com.pluto.network.listener.OnResultDataListener;
 
 
 public class LoginClient {

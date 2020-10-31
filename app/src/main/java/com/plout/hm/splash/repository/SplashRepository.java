@@ -4,10 +4,10 @@ import androidx.annotation.NonNull;
 import androidx.lifecycle.LiveData;
 
 
-import com.xiangxue.network.ZSNetworkApi;
-import com.xiangxue.network.beans.BaseResponse;
-import com.xiangxue.network.common.Resource;
-import com.xiangxue.network.utils.NetworkOnlyResource;
+import com.pluto.network.ZSNetworkApi;
+import com.pluto.network.beans.BaseResponse;
+import com.pluto.network.common.Resource;
+import com.pluto.network.utils.NetworkOnlyResource;
 
 import java.util.List;
 

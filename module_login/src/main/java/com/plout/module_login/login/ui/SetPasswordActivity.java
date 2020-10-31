@@ -16,8 +16,8 @@ import com.plout.module_login.R;
 import com.plout.module_login.login.bean.RegisterReq;
 import com.plout.module_login.login.bean.UpdatePasswordReq;
 import com.plout.module_login.login.model.LoginClient;
-import com.xiangxue.network.model.RequestWork;
-import com.xiangxue.network.model.ResponseWork;
+import com.pluto.network.model.RequestWork;
+import com.pluto.network.model.ResponseWork;
 
 import com.wl.pluto.arch.base.activity.BaseActivity;
 

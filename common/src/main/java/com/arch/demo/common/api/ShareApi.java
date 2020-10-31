@@ -2,7 +2,7 @@ package com.arch.demo.common.api;
 
 
 import com.arch.demo.common.bean.ShareBean;
-import com.xiangxue.network.beans.BaseResponse;
+import com.pluto.network.beans.BaseResponse;
 
 import io.reactivex.Observable;
 import retrofit2.http.Field;

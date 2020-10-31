@@ -4,7 +4,7 @@ package com.wl.pluto.arch.base;
 import android.app.Application;
 
 import com.umeng.commonsdk.BuildConfig;
-import com.xiangxue.network.base.INetworkRequiredInfo;
+import com.pluto.network.base.INetworkRequiredInfo;
 
 import rxtool.RxAppTool;
 

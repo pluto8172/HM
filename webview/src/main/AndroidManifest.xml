@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.xiangxue.webview" >
+    package="com.pluto.webview" >
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -9,11 +9,11 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
     <application>
-        <service android:name="com.xiangxue.webview.mainprocess.MainProHandleRemoteService"/>
-        <service android:name="com.xiangxue.webview.remoteprocessservice.OptimizationService"
+        <service android:name="com.pluto.webview.mainprocess.MainProHandleRemoteService"/>
+        <service android:name="com.pluto.webview.remoteprocessservice.OptimizationService"
             android:process=":remoteweb"/>
 
-        <activity android:name="com.xiangxue.webview.WebviewActivity"
+        <activity android:name="com.pluto.webview.WebviewActivity"
             android:theme="@style/XiangxueWebviewTheme"
             android:hardwareAccelerated="true"
             android:process=":remoteweb"/>

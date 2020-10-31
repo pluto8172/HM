@@ -30,8 +30,8 @@ import com.wl.pluto.arch.R;
 import com.wl.pluto.arch.base.activity.AbstractBaseActivity;
 import com.wl.pluto.arch.constant.AppConstant;
 import com.wl.pluto.arch.constant.SPKey;
-import com.xiangxue.network.base.NetworkApi;
-import com.xiangxue.network.errorhandler.ErrorCode;
+import com.pluto.network.base.NetworkApi;
+import com.pluto.network.errorhandler.ErrorCode;
 
 import imageloader.libin.com.images.loader.ImageLoader;
 import rxtool.RxTool;

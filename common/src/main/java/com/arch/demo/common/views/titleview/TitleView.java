@@ -6,7 +6,7 @@ import android.view.View;
 import com.arch.demo.common.R;
 import com.arch.demo.common.databinding.TitleViewBinding;
 import com.wl.pluto.arch.mvvm2.customview.BaseCustomView;
-import com.xiangxue.webview.WebviewActivity;
+import com.pluto.webview.WebviewActivity;
 
 /**
  * Created by plout on 2017/7/20.
